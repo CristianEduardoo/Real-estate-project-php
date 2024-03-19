@@ -1,0 +1,42 @@
+.contenido-header{
+    max-width: 136rem;
+    padding: 2.5rem;
+}
+
+.barra {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    @include tablet {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .logo-header {
+        max-width: 100%;
+        width: 40rem;
+        height: auto;
+    }
+}
+
+
+.navegacion-header{
+    margin: 3rem;
+
+    a {
+        color: $blanco;
+        text-decoration: none;
+        font-size: 2rem;
+        font-weight: $delgada;
+        display: block; /* vista para mmovil */
+        text-align: center;
+    }
+
+    @include tablet {
+        display: flex;
+        gap: 2.5rem;
+        margin: 0rem;
+    }
+}

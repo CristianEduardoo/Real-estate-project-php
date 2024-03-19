@@ -1,0 +1,13 @@
+/* Base */
+@import 'base/normalize';
+@import 'base/variables';
+@import 'base/mixins';
+@import 'base/globales';
+@import 'base/utilidades';
+
+
+/* layout */
+@import 'layout/header';
+@import 'layout/navegacion';
+@import 'layout/iconos';
+@import 'layout/footer';
