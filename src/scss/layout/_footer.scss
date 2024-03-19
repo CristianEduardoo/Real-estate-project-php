@@ -30,11 +30,15 @@
         text-align: center;
     }
 
-    @include desktop {
+    @include tablet {
         display: flex;
+        justify-content: space-around;
         gap: 2.5rem;
-        justify-content: end;
         margin: 0rem;
+    }
+
+    @include desktop{
+        justify-content: end;
     }
 }
 
