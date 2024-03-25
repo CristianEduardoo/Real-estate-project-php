@@ -1,6 +1,7 @@
 .footer {
     background-color: $grisOscuro;
     align-items: center;
+    margin-bottom: 0;
 
     @include desktop {
         display: grid;

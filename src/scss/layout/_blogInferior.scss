@@ -1,0 +1,56 @@
+@include desktop{
+    .seccion-inferior{
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        column-gap: 10rem;
+    }
+}
+
+.entrada-blog{
+    margin-bottom: 10rem;
+
+    @include tablet{
+        margin-bottom: 5rem;
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        column-gap: 2rem;
+    }
+
+    &:last-of-type{ // asi el ultimo elemento no tiene margin
+        margin-bottom: 7rem;
+    }
+}
+
+.imagen{
+    margin-bottom: 1rem;
+}
+
+.texto-entrada{
+    a{
+        color: $negro;
+        font-weight: $delgada;
+    }
+
+    h4{
+        margin: 0;
+        &::after {
+            content: '';
+            display: block;
+            width: 15rem;
+            height: .4rem;
+            background: $verde;
+            margin-top: 1rem;
+        }
+        
+    }
+
+    span{
+        color: $amarillo;
+        padding: 0.3rem;
+    }
+
+    .spafecha{
+        margin-right: 1rem;
+    }
+}
+

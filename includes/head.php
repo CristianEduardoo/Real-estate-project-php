@@ -5,5 +5,5 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bienes Raíces</title>
-    <link rel="stylesheet" href="./build/css/app.css">
+    <link rel="stylesheet" href="./build/css/app.css?v=1">
 </head>
