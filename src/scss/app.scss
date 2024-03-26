@@ -7,12 +7,16 @@
 @import 'base/botones';
 
 
-/* layout */
+/* Layout */
 @import 'layout/header';
 @import 'layout/navegacion';
 @import 'layout/iconos';
-@import 'layout/anuncio';
+@import 'layout/anuncios';
 @import 'layout/contactar';
 @import 'layout/blogInferior';
 @import 'layout/testimonial';
 @import 'layout/footer';
+
+
+/* Internas */
+@import 'internas/nosotros';

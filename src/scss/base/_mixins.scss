@@ -31,10 +31,8 @@
     text-decoration: none;
     padding: 1rem 3rem;
     text-align: center;
-    margin-top: 2.5rem;
-
+    
     &:hover {
         background-color: darken($bgcolor, $amount: 5);
     }
-
 }

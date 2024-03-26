@@ -21,11 +21,14 @@
     }
 }
 
-.imagen{
-    margin-bottom: 1rem;
-}
-
 .texto-entrada{
+
+    margin-top: 1.5rem;
+
+    @include tablet{
+        margin: 0;
+    }
+
     a{
         color: $negro;
         font-weight: $delgada;

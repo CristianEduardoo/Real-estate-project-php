@@ -18,33 +18,33 @@
             <h1>Agencia Inmobiliaria Exclusiva en Venta de Casas y Departamentos</h1>
         </div>
     </header>
-    <main class="contenedor seccion">
+    <main class="contenedor">
         <h1>Mas sobre Nosotros</h1>
         <div class="iconos_nosotros">
             <div class="icono">
-                <img src="./build/img/icono1.svg" alt="Icono Seguridad" loading="lazy">
+                <img src="./build/img/iconos/icono1.svg" alt="Icono Seguridad" loading="lazy">
                 <h3>Seguridad</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipiscing elit neque hac tristique, a nisl purus ultrices nunc accumsan molestie etiam habitant eros curae, orci aliquam at sociosqu fames convallis pharetra ut eleifend.</p>
             </div>
             <div class="icono">
-                <img src="./build/img/icono2.svg" alt="Icono Seguridad" loading="lazy">
+                <img src="./build/img/iconos/icono2.svg" alt="Icono Precio" loading="lazy">
                 <h3>Precio</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipiscing elit neque hac tristique, a nisl purus ultrices nunc accumsan molestie etiam habitant eros curae, orci aliquam at sociosqu fames convallis pharetra ut eleifend.</p>
             </div>
             <div class="icono">
-                <img src="./build/img/icono3.svg" alt="Icono Seguridad" loading="lazy">
+                <img src="./build/img/iconos/icono3.svg" alt="Icono Tiempo" loading="lazy">
                 <h3>A Tiempo</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipiscing elit neque hac tristique, a nisl purus ultrices nunc accumsan molestie etiam habitant eros curae, orci aliquam at sociosqu fames convallis pharetra ut eleifend.</p>
             </div>
         </div>
     </main>
-    <section class="seccion contenedor">
+    <section class="contenedor">
         <h2>Casas y Departamentos en venta</h2>
         <div class="contenedor-anuncios">
             <div class="anuncio"> <!-- anuncio 1 -->
                 <picture>
-                    <source srcset="./build/img/anuncio1.webp" type="image/webp">
-                    <img loading="lazy" width="200" height="300" src="./build/img/anuncio1.jpg" alt="anuncios">
+                    <source srcset="./build/img/anuncios/anuncio1.webp" type="image/webp">
+                    <img loading="lazy" width="200" height="300" src="./build/img/anuncios/anuncio1.jpg" alt="anuncios">
                 </picture>
                 <div class="contenido-anuncio">
                     <h3>Casa de lujo en el lago</h3>
@@ -53,15 +53,15 @@
 
                     <ul class="iconos-caracteristicas">
                         <li>
-                            <img loading="lazy" src="./build/img/icono_wc.svg" alt="icono wc" />
+                            <img loading="lazy" src="./build/img/iconos/icono_wc.svg" alt="icono wc" />
                             <p>4</p>
                         </li>
                         <li>
-                            <img loading="lazy" src="./build/img/icono_estacionamiento.svg" alt="icono estacionamiento" />
+                            <img loading="lazy" src="./build/img/iconos/icono_estacionamiento.svg" alt="icono estacionamiento" />
                             <p>1</p>
                         </li>
                         <li>
-                            <img loading="lazy" src="./build/img/icono_dormitorio.svg" alt="icono hanitaciones" />
+                            <img loading="lazy" src="./build/img/iconos/icono_dormitorio.svg" alt="icono hanitaciones" />
                             <p>4</p>
                         </li>
                     </ul>
@@ -71,8 +71,8 @@
             </div> <!-- fin anuncio 1 -->
             <div class="anuncio"> <!-- anuncio 2-->
                 <picture>
-                    <source srcset="./build/img/anuncio2.webp" type="image/webp">
-                    <img loading="lazy" width="200" height="300" src="./build/img/anuncio2.jpg" alt="anuncios">
+                    <source srcset="./build/img/anuncios/anuncio2.webp" type="image/webp">
+                    <img loading="lazy" width="200" height="300" src="./build/img/anuncios/anuncio2.jpg" alt="anuncios">
                 </picture>
                 <div class="contenido-anuncio">
                     <h3>Casa Centrica en Madrid</h3>
@@ -82,15 +82,15 @@
 
                     <ul class="iconos-caracteristicas">
                         <li>
-                            <img loading="lazy" src="./build/img/icono_wc.svg" alt="icono wc" />
+                            <img loading="lazy" src="./build/img/iconos/icono_wc.svg" alt="icono wc" />
                             <p>4</p>
                         </li>
                         <li>
-                            <img loading="lazy" src="./build/img/icono_estacionamiento.svg" alt="icono estacionamiento" />
+                            <img loading="lazy" src="./build/img/iconos/icono_estacionamiento.svg" alt="icono estacionamiento" />
                             <p>2</p>
                         </li>
                         <li>
-                            <img loading="lazy" src="./build/img/icono_dormitorio.svg" alt="icono hanitaciones" />
+                            <img loading="lazy" src="./build/img/iconos/icono_dormitorio.svg" alt="icono hanitaciones" />
                             <p>4</p>
                         </li>
                     </ul>
@@ -100,8 +100,8 @@
             </div> <!-- fin anuncio 2-->
             <div class="anuncio"> <!-- anuncio 3 -->
                 <picture>
-                    <source srcset="./build/img/anuncio3.webp" type="image/webp">
-                    <img loading="lazy" width="200" height="300" src="./build/img/anuncio3.jpg" alt="anuncios">
+                    <source srcset="./build/img/anuncios/anuncio3.webp" type="image/webp">
+                    <img loading="lazy" width="200" height="300" src="./build/img/anuncios/anuncio3.jpg" alt="anuncios">
                 </picture>
                 <div class="contenido-anuncio">
                     <h3>Hermosa casa de lujo</h3>
@@ -110,15 +110,15 @@
 
                     <ul class="iconos-caracteristicas">
                         <li>
-                            <img loading="lazy" src="./build/img/icono_wc.svg" alt="icono wc" />
+                            <img loading="lazy" src="./build/img/iconos/icono_wc.svg" alt="icono wc" />
                             <p>5</p>
                         </li>
                         <li>
-                            <img loading="lazy" src="./build/img/icono_estacionamiento.svg" alt="icono estacionamiento" />
+                            <img loading="lazy" src="./build/img/iconos/icono_estacionamiento.svg" alt="icono estacionamiento" />
                             <p>3</p>
                         </li>
                         <li>
-                            <img loading="lazy" src="./build/img/icono_dormitorio.svg" alt="icono hanitaciones" />
+                            <img loading="lazy" src="./build/img/iconos/icono_dormitorio.svg" alt="icono hanitaciones" />
                             <p>4</p>
                         </li>
                     </ul>
@@ -145,7 +145,7 @@
             <h3>Nuestro Blog</h3>
 
             <article class="entrada-blog"> <!-- blog 1 -->
-                <div class="imagen">
+                <div>
                     <picture>
                         <source srcset="./build/img/blog/blog1.webp" type="image/webp">
                         <img loading="lazy" width="200" height="300" src="./build/img/blog/blog1.jpg" alt="Texto Entrada Blog">
@@ -165,7 +165,7 @@
             </article>
 
             <article class="entrada-blog"> <!-- blog 2 -->
-                <div class="imagen">
+                <div>
                     <picture>
                         <source srcset="./build/img/blog/blog2.webp" type="image/webp">
                         <img loading="lazy" width="200" height="300" src="./build/img/blog/blog2.jpg" alt="Texto Entrada Blog">
@@ -173,7 +173,7 @@
                 </div>
 
                 <div class="texto-entrada">
-                    <a href="entrada.html">
+                    <a href="entrada.php">
                         <h4>Guía para la decoración de tu hogar</h4>
                         <p>Escrito el: <span class="spafecha">25/03/2024</span> por: <span>Admin</span> </p>
 
@@ -196,8 +196,6 @@
             </div>
         </section> <!-- Fin section 2 -->
     </div>
-
-
 
     <?php include './includes/footer.php' ?>
 </body>
