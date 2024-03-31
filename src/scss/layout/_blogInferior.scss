@@ -1,41 +1,42 @@
-@include desktop{
-    .seccion-inferior{
+@include desktop {
+    .seccion-inferior {
         display: grid;
         grid-template-columns: 2fr 1fr;
         column-gap: 10rem;
     }
 }
 
-.entrada-blog{
+.entrada-blog {
     margin-bottom: 10rem;
 
-    @include tablet{
+    @include tablet {
         margin-bottom: 5rem;
         display: grid;
         grid-template-columns: 1fr 2fr;
         column-gap: 2rem;
     }
 
-    &:last-of-type{ // asi el ultimo elemento no tiene margin
+    &:last-of-type {
+        // asi el ultimo elemento no tiene margin
         margin-bottom: 7rem;
     }
 }
 
-.texto-entrada{
+.texto-entrada {
 
     margin-top: 1.5rem;
 
-    @include tablet{
+    @include tablet {
         margin: 0;
     }
 
-    a{
+    a {
         color: $negro;
-        font-weight: $delgada;
     }
 
-    h4{
+    h4 {
         margin: 0;
+
         &::after {
             content: '';
             display: block;
@@ -44,16 +45,17 @@
             background: $verde;
             margin-top: 1rem;
         }
-        
+
     }
 
-    span{
-        color: $amarillo;
-        padding: 0.3rem;
-    }
-
-    .spafecha{
+    .spafecha {
         margin-right: 1rem;
     }
 }
 
+.informacion-meta {
+    span {
+        color: $amarillo;
+        padding: 0.3rem;
+    }
+}

@@ -1,0 +1,43 @@
+.webp .contacto-img {
+    // agregamos una clase extra para detectar el soporte de img del navegador
+    background-image: url('../img/destacadas/destacada3.webp')
+}
+
+.no-webp .contacto-img {
+    background-image: url('../img/destacadas/destacada3.jpg');
+}
+
+.contacto-img {
+    // Clase extra para la imagen de la pagina de inicio
+    background-position: center center;
+    background-size: cover;
+
+    @include tablet {
+        min-height: 65rem;
+    }
+
+    .contenido-contacto {
+        @include tablet {
+            // Para que conicida con el min-height de .inicio, asi las tienen ambas
+            min-height: 60rem;
+        }
+    }
+}
+
+.contenido-contacto{
+    
+    h1{
+        color: $blanco;
+        margin: 0;
+        padding: 5rem 0;
+        font-weight: $bold;
+    }
+}
+
+.formulario {
+    background-color: rgba(255, 255, 255, 0.8);
+        /* Fondo blanco con opacidad del 80% */
+    padding: 10px;
+        /* Añade algo de espacio alrededor del formulario */
+}
+

@@ -155,7 +155,7 @@
                 <div class="texto-entrada">
                     <a href="entrada.html">
                         <h4>Terraza en el techo de tu casa</h4>
-                        <p>Escrito el: <span class="spafecha">25/03/2024</span> por: <span>Admin</span> </p>
+                        <p class="informacion-meta">Escrito el: <span class="spafecha">25/03/2024</span> por: <span>Admin</span> </p>
 
                         <p>
                             Consejos para construir una terraza en el techo de tu casa con los mejores materiales
@@ -175,7 +175,7 @@
                 <div class="texto-entrada">
                     <a href="entrada.php">
                         <h4>Guía para la decoración de tu hogar</h4>
-                        <p>Escrito el: <span class="spafecha">25/03/2024</span> por: <span>Admin</span> </p>
+                        <p class="informacion-meta">Escrito el: <span class="spafecha">25/03/2024</span> por: <span>Admin</span> </p>
 
                         <p>
                             Maximiza el espacio en tu hogar con esta guia, aprende a combinar muebles y colores para darle vida a tu espacio

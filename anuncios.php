@@ -17,7 +17,7 @@
             </div>
         </div>
     </header>
-    <main class="contenedor">
+    <main class="contenedor comodin">
         <h2>Casas y Departamentos en venta</h2>
         <div class="contenedor-anuncios">
             <div class="anuncio"> <!-- anuncio 1 -->
