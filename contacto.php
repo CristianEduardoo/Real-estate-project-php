@@ -47,7 +47,7 @@
                         <option value="comprar">Compro</option>
                     </select>
                     <label for="presupuesto">Precio o presupuesto</label>
-                    <input id="presupuesto" type="number" name="presupuesto" placeholder="Tu presupuesto" min="0">
+                    <input id="presupuesto" type="number" name="presupuesto" placeholder="Precio o presupuesto" min="0">
                 </fieldset>
 
                 <fieldset>
@@ -70,7 +70,7 @@
                     <label for="hora">Hora *</label>
                     <input id="hora" type="time" name="hora" min="09:00" max="18:00">
                 </fieldset>
-                <div>
+                <div class="enviar-formulario">
                     <input type="submit" value="Enviar" class="btn-verde">
                 </div>
             </form>
