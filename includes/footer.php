@@ -9,4 +9,4 @@
     </div>
     <p class="copyright">&copy; Todos los derechos reservados 2024</p>
 </footer>
-<script src="./build/js/bundle.min.js"></script>
+<script src="build/js/bundle.js"></script>

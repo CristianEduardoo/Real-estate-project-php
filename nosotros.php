@@ -4,16 +4,7 @@
     <header class="header">
         <div class="contenedor contenido-header">
             <div class="barra">
-                <a href="index.php"><!-- Otra opción es: "/" -->
-                    <img class="logo-header" src="./build/img/logo.svg" alt="logo_bienesRaices" />
-                </a>
-
-                <nav class="navegacion-header">
-                    <a href="nosotros.php">Acerca de nosotros</a>
-                    <a href="anuncios.php">Anuncios</a>
-                    <a href="blog.php">Blog</a>
-                    <a href="contacto.php">Contacto</a>
-                </nav>
+                <?php include './includes/barra_movil.php' ?>
             </div>
         </div>
     </header>
@@ -34,11 +25,11 @@
                     30 Años de experiencia
                 </blockquote>
 
-                <p>Proin consequat viverra sapien, malesuada tempor tortor feugiat vitae. 
-                    In dictum felis et nunc aliquet molestie. Proin tristique commodo felis, sed auctor elit auctor pulvinar. 
-                    Nunc porta, nibh quis convallis sollicitudin, arcu nisl semper mi, vitae sagittis lorem dolor non risus. 
-                    Vivamus accumsan maximus est, eu mollis mi. Proin id nisl vel odio semper hendrerit. Nunc porta in justo finibus tempor. 
-                    Suspendisse lobortis dolor quis elit suscipit molestie. Sed condimentum, erat at tempor finibus, urna nisi fermentum est, a dignissim nisi libero vel est. 
+                <p>Proin consequat viverra sapien, malesuada tempor tortor feugiat vitae.
+                    In dictum felis et nunc aliquet molestie. Proin tristique commodo felis, sed auctor elit auctor pulvinar.
+                    Nunc porta, nibh quis convallis sollicitudin, arcu nisl semper mi, vitae sagittis lorem dolor non risus.
+                    Vivamus accumsan maximus est, eu mollis mi. Proin id nisl vel odio semper hendrerit. Nunc porta in justo finibus tempor.
+                    Suspendisse lobortis dolor quis elit suscipit molestie. Sed condimentum, erat at tempor finibus, urna nisi fermentum est, a dignissim nisi libero vel est.
                     Donec et imperdiet augue. Curabitur malesuada sodales congue. Suspendisse potenti. Ut sit amet convallis nisi.</p>
 
                 <p>Aliquam lectus magna, luctus vel gravida nec, iaculis ut augue. Praesent ac enim lorem.</p>

@@ -2,7 +2,7 @@
 //Gulp
 const { src, dest, watch, parallel } = require("gulp");
 
-//CSS
+// Dependencias para CSS
 const sass = require("gulp-sass")(require("sass"));
 const plumber = require("gulp-plumber"); // plumber(), para que no interrumpa el workflow cuando marca errores
 const autoprefixer = require("autoprefixer");
@@ -10,18 +10,22 @@ const cssnano = require("cssnano");
 const postcss = require("gulp-postcss");
 const sourcemaps = require("gulp-sourcemaps");
 
+// Dependencias para JavaScript
+//JavaScript terser minifica codigo js => como cssnano
 const concat = require("gulp-concat");
+const terser = require("gulp-terser-js");
 const rename = require("gulp-rename");
-//Imagenes
+
+// Dependencias para imágenes
 const webp = require("gulp-webp");
 const imagemin = require("gulp-imagemin"); // Minificar imagenes
 const cache = require("gulp-cache");
 
+// Otras dependencias
 const notify = require("gulp-notify");
 const clean = require("gulp-clean");
 
-//JavaScript terser minifica codigo js => como cssnano
-const terser = require("gulp-terser-js");
+
 
 const paths = {
   scss: "src/scss/**/*.scss",
@@ -50,8 +54,8 @@ function javascript() {
     .pipe(concat("bundle.js"))
     .pipe(terser())
     .pipe(sourcemaps.write("."))
-    .pipe(rename({ suffix: ".min" }))
-    .pipe(dest("./build/js"));
+    //.pipe(rename({ suffix: ".min" }))
+    .pipe(dest("build/js"));
 }
 
 function imagenes() {

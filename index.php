@@ -4,16 +4,7 @@
     <header class="header inicio">
         <div class="contenedor contenido-header">
             <div class="barra">
-                <a href="/"><!-- Otra opción es: "/" -->
-                    <img class="logo-header" src="./build/img/logo.svg" alt="logo_bienesRaices" />
-                </a>
-
-                <nav class="navegacion-header">
-                    <a href="nosotros.php">Acerca de nosotros</a>
-                    <a href="anuncios.php">Anuncios</a>
-                    <a href="blog.php">Blog</a>
-                    <a href="contacto.php">Contacto</a>
-                </nav>
+                <?php include './includes/barra_movil.php' ?>
             </div>
             <h1>Agencia Inmobiliaria Exclusiva en Venta de Casas y Departamentos</h1>
         </div>
